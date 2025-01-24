@@ -1,2 +1,2 @@
-# cclair
-CClair is a GCompris equivalent for Mobile
+# OCapito
+OCapito is a GCompris equivalent for every one
