@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="100"
+   height="100"
+   version="1.1"
+   id="svg12"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs16" />
+  <rect
+     x="0"
+     y="0"
+     width="100"
+     height="100"
+     ry="5"
+     rx="5"
+     stroke-width="{{BORDER_WIDTH}}px"
+     stroke="{{BORDER_COLOR}}"
+     fill-opacity="{{BACKGROUND_OPACITY}}"
+     fill="{{BACKGROUND_COLOR}}"
+     id="rect2" />
+  <g
+     fill="{{FOREGROUND_COLOR}}"
+     id="g6">
+    <g
+       aria-label="R"
+       id="text4"
+       style="font-size:70px;dominant-baseline:central;text-anchor:middle">
+      <path
+         d="M 64.509277,69.302809 51.999512,49.307692 H 36.994629 v 19.995117 h -6.52832 v -48.15918 h 22.661132 q 8.134766,0 12.543946,3.657227 4.443359,3.623047 4.443359,10.117187 0,5.366211 -3.144531,9.023438 -3.110352,3.657226 -8.613281,4.614257 L 72.028809,69.302809 Z M 63.552246,34.986403 q 0,-4.204102 -2.871094,-6.391602 -2.836914,-2.22168 -8.203125,-2.22168 H 36.994629 v 17.773438 h 15.756836 q 5.161133,0 7.963867,-2.392578 2.836914,-2.426758 2.836914,-6.767578 z"
+         style="font-size:70px;dominant-baseline:central;text-anchor:middle"
+         id="path18" />
+    </g>
+  </g>
+  <g
+     x="60%"
+     y="90%"
+     fill="{{FOREGROUND_COLOR}}"
+     fill-opacity="{{POINTS_OPACITY}}"
+     id="g10">
+    <g
+       aria-label="1"
+       id="text8"
+       style="font-size:25px">
+      <path
+         d="M 1.9042969,0 V -1.8676758 H 6.2866211 V -15.100098 l -3.8818359,2.770996 v -2.075195 l 4.0649414,-2.79541 H 8.4960938 V -1.8676758 H 12.683105 V 0 Z"
+         style="font-size:25px"
+         id="path21" />
+    </g>
+  </g>
+</svg>

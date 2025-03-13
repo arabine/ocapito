@@ -1,0 +1,6 @@
+[submodule "cpp-httplib"]
+	path = cpp-httplib
+	url = https://github.com/yhirose/cpp-httplib.git
+[submodule "gui/lvgl"]
+	path = gui/lvgl
+	url = https://github.com/lvgl/lvgl

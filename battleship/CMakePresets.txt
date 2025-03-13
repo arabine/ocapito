@@ -1,0 +1,77 @@
+{
+  "version": 3,
+  "cmakeMinimumRequired": {
+    "major": 3,
+    "minor": 19,
+    "patch": 0
+  },
+  "configurePresets": [
+    {
+      "name": "default",
+      "hidden": true,
+      "generator": "Ninja",
+      "binaryDir": "${sourceDir}/build",
+      "cacheVariables": {
+        "CMAKE_EXPORT_COMPILE_COMMANDS": "YES"
+      }
+    },
+    {
+      "name": "gui-Debug",
+      "inherits": "default",
+      "description": "Build the GUI project in Debug mode",
+      "binaryDir": "${sourceDir}/build/gui/Debug",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Debug"
+      }
+    },
+    {
+      "name": "gui-Release",
+      "inherits": "default",
+      "description": "Build the GUI project in Release mode",
+      "binaryDir": "${sourceDir}/build/gui/Release",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release"
+      }
+    },
+    {
+      "name": "tui-Debug",
+      "inherits": "default",
+      "description": "Build the TUI project in Debug mode",
+      "binaryDir": "${sourceDir}/build/tui/Debug",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Debug"
+      }
+    },
+    {
+      "name": "tui-Release",
+      "inherits": "default",
+      "description": "Build the TUI project in Release mode",
+      "binaryDir": "${sourceDir}/build/tui/Release",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release"
+      }
+    }
+  ],
+  "buildPresets": [
+    {
+      "name": "build-gui-Debug",
+      "configurePreset": "gui-Debug",
+      "description": "Build the GUI project in Debug mode"
+    },
+    {
+      "name": "build-gui-Release",
+      "configurePreset": "gui-Release",
+      "description": "Build the GUI project in Release mode"
+    },
+    {
+      "name": "build-tui-Debug",
+      "configurePreset": "tui-Debug",
+      "description": "Build the TUI project in Debug mode"
+    },
+    {
+      "name": "build-tui-Release",
+      "configurePreset": "tui-Release",
+      "description": "Build the TUI project in Release mode"
+    }
+  ]
+}
